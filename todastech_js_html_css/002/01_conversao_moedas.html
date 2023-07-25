@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 conversão de moeda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bebas+Neue&display=swap');
+        .paragrafo {
+            /* o ponto determina class ai só chamo la embaixo -->*/
+            color: red;
+        }
+
+        div {
+            color: green;
+        }
+
+        .negrito {
+            font-weight: bold;
+        }
+
+        .corBotao {
+            background-color: rgb(99, 25, 148);
+            color: white;
+        }
+
+        form {
+            width: 600px;
+            margin: 30px auto;
+            text-align: center;
+
+        }
+
+        input,
+        select {
+            margin-bottom: 10px;
+        }
+
+        body {
+            background-color: greenyellow;
+        }
+        
+        h1{
+            font-family: 'Agdasima', sans-serif;
+            text-align: center;
+        }
+    </style>
+    <script></script>
+
+</head>
+
+<body>
+
+    <h1>Conversão de moedas</h1>
+    <p class="paragrafo"></p> <!-- atalho digita só p.paragrafo e se digitar isso mais *5 criará 5 iguais  -->
+    <form>
+        <img src="ico_money.png" alt="money" height="150px">
+        <input type="number" id="valor" placeholder="Digite o valor" class="form-control">
+        <select name="moeda" id="moeda" class="form-control">
+            <option value="0">Escolha conversão</option>
+            <option value="1">Real para Dólar</option>
+            <option value="2">Dólar para Real</option>
+        </select>
+        <input type="button" value="Calcular" class="btn corBotao"><!--misturei bootstraps com minha class criada-->
+    </form>
+
+</body>
+
+</html>

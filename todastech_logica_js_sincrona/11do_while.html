@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 Do While</title>
+</head>
+
+<script>
+
+    /*  
+        while: valida primeiro... 
+        do while: entra com acao primeiro dps verifica se mantem o loop
+    */
+    var contador = 0 //fora do laço se for do while
+    do{
+        var nome = prompt("informe um nome ou SAIR para finalizar")
+        if (nome !="SAIR"){
+            contador++
+        }else{
+            document.write("Você digitou " +contador+ " nomes")
+        }
+        
+    }while(nome != "SAIR")
+
+</script>
+
+<body>
+
+</body>
+
+</html>

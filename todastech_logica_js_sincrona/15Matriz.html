@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Matriz</title>
+</head>
+
+<script>
+
+    // Matriz
+    var dados = [];
+
+    // Laço de repetição
+    do{
+
+        // Obter o nome
+        var nome = prompt("Informe um nome");
+
+        // Obter a idade
+        var idade = prompt("Informe uma idade");
+
+        // Obter o e-mail
+        var email = prompt("Informe um e-mail");
+
+        // Cadastrar dados na matriz
+        dados.push([nome, idade, email]);
+        // Verificar se deseja continuar
+        var continuar = confirm("Deseja continuar?");
+
+    }while(continuar == true);
+
+
+    // Listar nomes e idades
+    for(var indice = 0; indice<dados.length; indice++){
+        document.write("Nome:  " + dados[indice][0] + "<br>"); //0 pq é coluna 0 nome
+        document.write("Idade: " + dados[indice][1] + "<br>"); //1 pq é coluna 1 idade
+        document.write("E-mail: " + dados[indice][2] + "<hr>");
+    }
+
+    // Exibir estrutura da matriz via console
+
+    console.table(dados)
+
+    /*matriz
+        L = número da linha
+        C = número da coluna
+
+                        COLUNA
+        matriz = L0C0 L0C1 L0C2 L0C3
+                 L1C0 L1C1 L1C2 L1C3
+        LINHA    L2C0 L2C1 L2C2 L2C3
+        */
+
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>

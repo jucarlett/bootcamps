@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 While</title>
+</head>
+
+<script>
+
+    var soma = 0
+    var continuar = true
+    while (continuar == true) {
+
+        var numero = parseInt(prompt("Digite um número ou 0 para sair: "))
+        if (numero == 0) {
+            continuar = false
+        } else {
+            soma += numero //soma = soma + numero
+        }
+
+    }
+    document.write("A soma é: " +soma)
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+body{
+    
+    background-color: purple;
+}
+nav{
+    background-color: black;
+}
+nav a{
+    color: #fff;
+    text-decoration: none; /*retira sublinhado*/
+    padding: 15px;
+    display: inline-block;
+    transition: background-color 0.7s;
+}
+nav a:hover{
+    background-color: rgb(145, 142, 142);
+    color: #000;
+}

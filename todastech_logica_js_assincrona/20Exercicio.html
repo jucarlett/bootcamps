@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 Exercício</title>
+
+    <!-- JS -->
+    <script>
+        //obter media
+        function obterMedia() {
+            var nota1 = parseFloat(document.getElementById("nota1").value)
+            var nota2 = parseFloat(document.getElementById("nota2").value)
+
+            var media = calculo(nota1, nota2)
+
+            document.write("A média é: " + media + " e a situação é: " + situacao(media))
+        }
+
+
+        //calculo de media
+        function calculo(nota1, nota2) {
+            return (nota1 + nota2) / 2
+        }
+
+        //situacao
+        function situacao(media) {
+            if (media >= 7) {
+                return "Aprovado"
+            } else {
+                return "Reprovado"
+            }                               //return media >= 7 ? "Aprovado" : "Reprovado"
+
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <input type="text" placeholder="informe a nota 1" id="nota1">
+    <input type="text" placeholder="informe a nota 2" id="nota2">
+    <button onclick="obterMedia()"> Calcular</button>
+</body>
+
+</html>

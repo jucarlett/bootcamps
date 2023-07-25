@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 Condicional</title>
+</head>
+
+<script>
+
+    var nota1 = parseFloat(prompt("informe nota 1")) //parse pra trabalhar o dado por causa da soma
+    var nota2 = parseFloat(prompt("informe nota 2"))
+    var media = (nota1 + nota2) / 2
+
+    if (media <0 || media > 10){
+        document.write("Média Inválida")}
+    else if (media == 10) {
+        document.write("Aprovado com distinção")
+    } else if (media >= 9) {
+        document.write("Ótimo")
+    } else if (media >= 7) {
+        document.write("Regular")
+    } else {
+        document.write("Reprovado")
+    }
+
+</script>
+
+<body>
+
+</body>
+
+</html>

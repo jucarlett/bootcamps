@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 caixa de seleçãoo</title>
+    <style>
+        select {
+            width: 300px;
+            padding: 10px;
+            border-style: dotted;
+            border-color: rgb(42, 19, 177);
+            border-width: 3px;
+            border-radius: 10px;
+            margin: 50px;
+            margin-left: 500px;
+            margin-top: 200px;
+            font-size: 20px;
+            background-color: aqua;
+        }
+        body{
+            background-color: green;
+        }
+    </style>
+    <script>
+        function descricao(valor) {
+
+            //estrutura de escolha
+            switch (parseInt(valor)) {
+                case 01:
+                    alert('São Paulo');
+                    break;
+                case 02:
+                    alert('Rio de J');
+                    break;
+                case 03:
+                    alert('BH');
+                    break;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <select onchange="descricao(this.value)"> <!-- chama a funcao descricao e o id value  -->
+        <option value="00">informe uma cidade</option>
+        <option value="01">São Paulo</option>
+        <option value="02">Rio de J</option>
+        <option value="03">BH</option>
+    </select>
+</body>
+
+</html>
