@@ -1,26 +1,38 @@
-abstract class Pessoa {
-  void apresentacao() {
-    print("Boa Noite!");
-  }
+abstract class Crud {
+  bool cadastro();
+  List selecao();
+  bool alteracao();
+  bool remocao();
 
-  bool verificarMaiorIdade();
+  int quantidadeRegistros() {
+    return 0;
+  }
 }
 
-class Pessoa2 extends Pessoa {
+class Produto extends Crud {
   @override
-  bool verificarMaiorIdade() {
-    // TODO: implement verificarMaiorIdade
+  bool cadastro() {
+    // TODO: implement cadastro
     throw UnimplementedError();
+  }
 
+  @override
+  bool remocao() {
+    // TODO: implement remocao
+    throw UnimplementedError();
+  }
+
+  @override
+  List selecao() {
+    // TODO: implement selecao
+    throw UnimplementedError();
+  }
+
+  @override
+  bool alteracao() {
+    // TODO: implement alteracao
+    throw UnimplementedError();
   }
 }
 
-void main() {
-  
-}
-
-
-
-
-
-
+void main() {}
