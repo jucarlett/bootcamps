@@ -9,9 +9,7 @@ class IntefaceCalculadora1 {
 class InterfaceCalculadora2 {
   // Método
   int subtracao(int n1, int n2) {
-    return n1 - n2;
-  }
-}
+    return n1 - n2; }}
 
 // Classe
 class Calculadora implements IntefaceCalculadora1, InterfaceCalculadora2 {
