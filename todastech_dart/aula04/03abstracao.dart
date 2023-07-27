@@ -17,7 +17,7 @@ class Produto extends Crud {
   }
 
   @override
-  bool remocao()) {
+  bool remocao() {
     // TODO: implement remocao
     throw UnimplementedError();
   }
