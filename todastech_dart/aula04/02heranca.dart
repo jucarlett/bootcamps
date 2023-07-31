@@ -17,7 +17,7 @@ class Endereco {
   Endereco(String bairro, String logradouro, int numero) {
     this.bairro = bairro;
     this.logradouro = logradouro;
-    this.numero = numero;
+    this.numero = numero; 
   }
 }
 
