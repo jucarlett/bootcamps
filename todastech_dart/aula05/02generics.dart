@@ -1,4 +1,4 @@
-//T significa q é generico a classe de exibicao dos dados
+//T significa q é generico a classe ou tipo de dado (variavel [int bool etc...])
 class Segmento<T> {
   T? produto;
   Segmento(produto) {
