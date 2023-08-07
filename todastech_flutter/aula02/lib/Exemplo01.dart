@@ -12,6 +12,7 @@ class ConteudoPagina extends State {
   //variavel
   Color cor = Colors.purple;
 
+
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
