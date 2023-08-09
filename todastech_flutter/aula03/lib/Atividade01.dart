@@ -1,6 +1,10 @@
+// Importar pacote Material
 import 'package:flutter/material.dart';
 
+// Classe do tipo StatefulWidget
 class Atividade01 extends StatefulWidget {
+  const Atividade01({super.key});
+
   @override
   State<StatefulWidget> createState() {
     return EstruturaAtividade01();
@@ -8,7 +12,7 @@ class Atividade01 extends StatefulWidget {
 }
 
 class EstruturaAtividade01 extends State {
-  //variaveis
+  // Variáveis
   String? nome;
   String? texto;
 
@@ -16,42 +20,46 @@ class EstruturaAtividade01 extends State {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('atividade01'),
+        title: const Text("Atividade 01"),
       ),
       body: SizedBox(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
-                padding: const EdgeInsets.only(top: 30.0),
+                padding: const EdgeInsets.only(top: 30),
                 child: SizedBox(
-                    //necessita da largura o sizedbox
-                    width: 200.0,
-                    child: Column(
-                      children: [
-                        TextField(
-                          onChanged: (termo) {
+                  width: 200,
+                  child: Column(
+                    children: [
+                      TextField(
+                        onChanged: (termo) {
+                          setState(() {
+                            nome = termo;
+                          });
+                        },
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 10, bottom: 10),
+                        child: ElevatedButton(
+                          onPressed: () {
                             setState(() {
-                              nome = termo;
+                              texto = "Boa noite $nome";
                             });
                           },
+                          child: const Text(
+                            "Clique aqui",
+                            textDirection: TextDirection.ltr,
+                          ),
                         ),
-                        ElevatedButton(
-                            onPressed: () {
-                              setState(() {
-                                texto = 'boa noite $nome';
-                              });
-                            },
-                            child: const Text(
-                              'clique aqui',
-                              textDirection: TextDirection.ltr,
-                            )),
-                        Text(
-                          '$texto',
-                          textDirection: TextDirection.ltr,
-                        )
-                      ],
-                    ))),
+                      ),
+                      Text(
+                        texto ?? '',
+                        textDirection: TextDirection.ltr,
+                      )
+                    ],
+                  ),
+                )),
           ],
         ),
       ),
