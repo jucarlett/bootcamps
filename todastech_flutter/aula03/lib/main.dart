@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Atividade01.dart';
+import 'Atividade02.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(theme: ThemeData.light(), home: Atividade01());
+    return MaterialApp(theme: ThemeData.light(), home: Atividade02());
   }
 }
