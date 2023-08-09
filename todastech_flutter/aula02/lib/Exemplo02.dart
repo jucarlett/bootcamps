@@ -27,7 +27,8 @@ class ConteudoPagina extends State {
             Container(
               width: 100,
               height: 100,
-              decoration: BoxDecoration(border: Border.all(color: Colors.red)),
+              decoration:
+                  BoxDecoration(border: Border.all(color: Colors.yellow)),
               child: Image.network(
                   'https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/flutter-256.png'),
             ),
