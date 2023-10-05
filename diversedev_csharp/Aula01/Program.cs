@@ -1,6 +1,9 @@
-﻿int numeroAlunos = 49;
-int numero = 12;
+﻿int numeroAlunosHoje = 49;
+int numeroAlunoAulaQuinta = numeroAlunosHoje - 1;
+
+Console.WriteLine(numeroAlunoAulaQuinta);
+
+numeroAlunosHoje = 48;
 
 
-
-Console.WriteLine("Hello, World!");
+Console.WriteLine(numeroAlunosHoje);
