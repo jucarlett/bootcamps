@@ -36,6 +36,44 @@ char meuChar = char.Parse("d"); //char espera somente um char nao 2, se tentar c
 bool meuBool= bool.Parse("true".ToString());
 
 
+int result;
+int.TryParse("10", out result); //out é oq vai retornar, no caso o atribuindo para a var result só se conseguir converter, se nao conseguir retorna -1 (com int)
+bool conseguiConverter = int.TryParse("teste01", out result);
+
+//condicionais
+
+if (conseguiConverter)
+{
+    Console.WriteLine("valor convertido: " + result);
+}
+else
+{
+    Console.WriteLine("nao foi possivel converter");
+}
+
+
+string clima = "sol";
+if (clima == "sol")
+{
+    Console.WriteLine("vou a praia");
+}
+else if (clima == "chuva")
+{
+    Console.WriteLine("vou ao cinema");
+}
+else
+{
+    Console.WriteLine("vou ficar em casa");
+}
+
+string clima2 = "sol";
+clima2.ToUpper(); //deixa tudo em maiusculo
+clima2.ToLower(); //deixa tudo em minusculo
+
+
+
+//receba input do user para escolher a operação e receber 2 valores . Fazer a operacao e imprimir o resultado
+
 
 
 
