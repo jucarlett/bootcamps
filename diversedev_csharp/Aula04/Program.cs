@@ -42,3 +42,34 @@ for (int i = 0; i <= 100; i++)
     }
 }
 
+
+
+//foreach - quer passar por todo elementoda lista e vai atribuindo ao item
+//funciona break continue etc pro if dentro do foreach
+
+foreach (var item in minhaLoja)
+{
+    if (item == "Tesla")
+    {
+        break;
+    };
+    Console.WriteLine(item);
+}
+
+
+
+
+
+bool conseguiConverter = int.TryParse(Console.ReadLine(), out int numero);  
+/*
+if (conseguiConverter)
+{
+    Console.WriteLine("conseguiu converter");
+}else
+{
+    Console.WriteLine("não conseguiu converter");
+}
+*/
+
+//condicao ? opcao1 : opcao 2;
+string texto = conseguiConverter ? "conseguiu converter" : "não conseguiu converter";
