@@ -1,0 +1,14 @@
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\bin\Debug\net6.0\Aula05-Prova.exe
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\bin\Debug\net6.0\Aula05-Prova.deps.json
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\bin\Debug\net6.0\Aula05-Prova.runtimeconfig.json
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\bin\Debug\net6.0\Aula05-Prova.dll
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\bin\Debug\net6.0\Aula05-Prova.pdb
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\obj\Debug\net6.0\Aula05-Prova.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\obj\Debug\net6.0\Aula05-Prova.AssemblyInfoInputs.cache
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\obj\Debug\net6.0\Aula05-Prova.AssemblyInfo.cs
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\obj\Debug\net6.0\Aula05-Prova.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\obj\Debug\net6.0\Aula05-Prova.dll
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\obj\Debug\net6.0\refint\Aula05-Prova.dll
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\obj\Debug\net6.0\Aula05-Prova.pdb
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\obj\Debug\net6.0\Aula05-Prova.genruntimeconfig.cache
+C:\xampp\htdocs\codes\bootcamps\diversedev_csharp\Aula05-Prova\obj\Debug\net6.0\ref\Aula05-Prova.dll
